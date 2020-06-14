@@ -1,0 +1,40 @@
+
+<div class="sqr container" >
+
+		<form method="POST" class="form-group" action="/adm/servicos/update/{$ID}" enctype="multipart/form-data" >
+
+			<br><br><h1 class="container">Editar Post "{$titulo}"</h1>
+
+			<div class="container">
+
+			    <input type="hidden" class="form-control " id="ID" name="ID" value="{$ID}" readonly="readonly"><br>
+
+				<label for="novotitulo">Novo Titulo</label>
+			    <input type="text" class="form-control" id="novotitulo" name="novotitulo" value="{$titulo}"><br>
+
+			    <label for="subtitulo">Novo Subtitulo</label>
+			    <input type="text" class="form-control" id="subtitulo" name="subtitulo" value="{$subtitulo}" ><br>
+
+				 <label for="p1">Novo Parágrafo 1</label>
+			    <textarea class="form-control" id="p1" name="p1">{$p1}</textarea> <br>
+
+			    <label for="p2">Novo Parágrafo 2</label>
+			    <textarea class="form-control" id="p2" name="p2">{$p2}</textarea> <br>
+
+			    <input type="file" name="dirfoto" value="{$dirfoto}"><br><br>
+
+			    <img style="width: 150px " src="{$dirfoto}"> <input type="hidden" name="dirfotoorig" readonly="readonly" value="{$dirfoto}"><br><br>
+			    <div>
+			   		<input type="submit" name="enviar" class="btn btn-success" value="Enviar">
+
+			   	<a method="POST" class="btn btn-danger" href="/adm/servicos/delete/{$ID}">Deletar</a>
+			   	
+			    </div><br><br>
+
+			   
+
+			</div>
+
+		</form>
+	</div>
+

@@ -1,0 +1,267 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/OpenSans/OpenSans.ttf");
+	font-size: 1em;
+}
+.backg{
+	/*background-image: url(/views/img/backg-style2.png);*/
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+#banner{
+	background-image: url(/views/img/fundo-urban.jpg);
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0, .5);
+	background-size: 100%;
+	width: 100%;
+	height: 420px;
+	#border-radius: 10px;
+}
+
+.sqr{
+	background-color: rgba(150,150,150, .2);
+	color: #222222;
+	position: relative;
+	border-radius: 20px;
+	border-color: black;
+	border:5px;
+	z-index: 5;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 95%;
+	height: 100%;
+}
+
+.home{
+	position: relative;
+	margin-left: 50px;
+	margin-top: 0px;
+	width: 95%;
+}
+
+#homeserv{
+	position: relative;
+	max-width: 150px;
+	border-radius: 5px;
+}
+
+#serv{
+	position: relative;
+	max-width:  200px;
+	border-radius: 5px;
+}
+
+
+header	{
+	width: 100%;
+	height: 80px;
+	z-index: 2;
+	position: relative;
+	background-color: #057BBE;	
+}
+
+header #logo {
+	position: relative;
+	margin-left: 40px;
+	top: 10px;
+	width: 60px;
+}
+
+header h1{
+	color: #FFF;
+	font-size: 30px;
+	position: relative;
+	margin-left: 110px;
+	font-weight: ;
+	top: -45px;
+
+}
+header h2{
+	color: #FFF;
+	font-size: 15px;
+	position: relative;
+	margin-left: 110px;
+	font-weight: lighter;
+	top: -55px;
+
+}
+
+header .header-black {
+	height: 50px;
+	background-color: #333;
+	position: relative;
+
+}
+
+
+#logos .carousel-inner {
+    position: relative;
+    width: 17%;
+    overflow: visible;
+    height: 50px;
+    margin-right: 65px;
+    top: 5px;
+
+}
+
+#menu{
+
+	position: relative;
+	left: 150px;
+	margin-top: 30px;
+}
+.btn-group-sm>.btn, .btn-sm {
+	color: #FFF;
+	border-color: #FFF;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+#menu li.search input{
+	position: relative;
+	width: 180px;
+	border: none;
+	height: 30px;
+	margin-left: -10px;
+	display: inline-block;
+
+}
+
+#menu li.search input::-webkit-input-placeholder {
+	color: #999;
+}
+
+#menu li.search button {
+	position: relative;
+	background-color: #FFF;
+	color: #999;
+	border:none;
+	border-radius: 5px;
+	font-size: 14px;
+	height: 30px;
+	top: -2px;
+}
+
+#divhr{
+	width: 100%;
+	height: 10px;
+	background-color: #FFF;
+}
+
+
+hr{
+	border-width: 5px;
+	border-radius: 5px;
+	width: 80%;
+	border-color: #999;
+}
+
+div.cont{
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	background-color: #FFF;
+}
+
+
+.servicos{
+	position: relative;
+	color: #222222;
+	font-weight: lighter;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: -5px;
+
+}
+
+.fix{
+	position:relative;
+	color: #FFF;
+    bottom:0;
+    width:100%;
+	background-color: #333;
+
+}
+
+footer iframe{
+	position: relative;
+	margin-top: 40px;
+}
+
+.infos{
+	position: relative;
+	top: 15px;
+	color: #FFF;
+}
+
+
+#logof{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 15px;
+}
+
+
+#Ctitle{
+	font-size: 30px;
+}
+#Csubtitle{
+	font-size: 25px;
+}
+#sld {
+	margin: 30px;
+}
+
+#imagesservices{
+
+	position: relative;
+	#max-height: 180px;
+	max-width: 350px;
+	border-radius: 15px;
+}
+
+#descrition{
+	font-size: 20px;
+}
+
+
+
+#adm{
+	position: relative;
+	top: -20px;
+	left: -20px;
+	color: #666;
+
+}
+
+.square{
+	background-color: #FFF;
+	border-radius: 7px;
+	box-shadow: 5px 5px 5px 5px #E6E7E8;
+	min-height: 300px;
+	width: 250px;
+}
+
+.login-box{
+	position: relative;
+	top: 250px;
+	width: 50%;
+	height: 300px;
+	background-color: #FFF;
+	border-radius: 7px;
+	box-shadow: 5px 5px 5px 5px #E6E7E8;
+}
+
+#btnlogin{
+	position: relative;
+	margin-left: 20px;
+}
